@@ -385,6 +385,20 @@
     text-wrap: balance; max-width: 20ch;
   }
   .cta-lede { color: var(--text-soft); max-width: 60ch; margin: 0 0 26px; }
+  .cta-free {
+    border-left: 3px solid var(--tip); background: var(--tip-bg);
+    border-radius: 0 10px 10px 0; padding: 14px 18px; margin: 0 0 26px;
+    max-width: var(--measure);
+  }
+  .cta-free p { margin: 0; font-size: .92rem; color: var(--text-soft); }
+  .cta-free p + p { margin-top: 8px; }
+  .cta-free strong { color: var(--text); }
+  .free-tag {
+    display: inline-block; margin-bottom: 8px; padding: 3px 9px; border-radius: 999px;
+    font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: .68rem;
+    font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--tip); border: 1px solid var(--tip); background: transparent;
+  }
   .svcs { display: grid; gap: 16px; margin: 0 0 28px; }
   @media (min-width: 620px) { .svcs { grid-template-columns: 1fr 1fr; gap: 20px 32px; } }
   .svc { padding-left: 15px; border-left: 2px solid var(--accent); }
@@ -922,6 +936,20 @@ em vez de adivinhar.
           num ambiente diferente, um modelo com convenções próprias e ninguém querendo ser o
           primeiro a deixar uma IA escrever no relatório de produção.
         </p>
+        <div class="cta-free">
+          <span class="free-tag">Sem custo</span>
+          <p>
+            <strong>Seguir este guia não custa nada, e continua assim.</strong> O servidor é
+            da Microsoft, a skill está escrita aqui inteira e o zip está pronto para baixar.
+            Faça o passo a passo e você tem o Claude conversando com o seu Power BI sem pagar
+            nada — nem para a J Tech, nem para ninguém.
+          </p>
+          <p>
+            O que a J Tech cobra é o trabalho que o tutorial não faz por você: sair de uma
+            máquina e chegar numa equipe inteira, com o modelo de vocês e com quem responde
+            se algo quebrar.
+          </p>
+        </div>
         <div class="svcs">
           <article class="svc">
             <h3>Implantação em time</h3>
